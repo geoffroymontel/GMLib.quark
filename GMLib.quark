@@ -1,0 +1,9 @@
+(
+  name: "GMLib",
+  summary: "Geoffroy Montel SC class experiments",
+  version: "0.0.1",
+  schelp: "",
+  dependencies: [],
+  license: "MIT",
+  copyright: "Geoffroy Montel"
+)
