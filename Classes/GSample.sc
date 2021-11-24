@@ -74,6 +74,7 @@ GSample : SCViewHolder {
 				soundFileView.readWithTask(0, tempSoundFile.numFrames, doneAction: {
 					if (soundFile != nil, { soundFile.close });
 					soundFile = tempSoundFile;
+					if ((window != nil) && (soundFile != nil), { window.name = PathName(soundFile.path).fileName});
 				});
 			}
 		});
